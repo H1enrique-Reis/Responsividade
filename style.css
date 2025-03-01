@@ -1,0 +1,84 @@
+html{
+    font-family: "Manrope", serif;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body{
+    margin: 0px;
+}
+
+button{
+    background-color: #F84646;
+    color: #FFFFFF;
+    width: 282;
+    height: 70;
+    top: 4590px;
+    left: 577px;
+    padding: 0.5rem 1.5rem;
+    gap: 10px;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    
+    
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 20px;
+    border: 0px;
+
+}
+
+h1{
+    font-size: 4rem;
+    font-weight: 800;
+    margin: 0px;
+}
+
+h2{
+    font-size: 3rem;
+    font-weight: 800;
+    margin: 0px;
+}
+
+#presentation-container{
+    padding: 2.5rem 7.5rem;
+    height: 100vh;
+    background-image: url(./assets/backgraundImg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#presentation{
+    width: 37.5rem;
+    position: relative;
+    top: calc(50% - 9rem);
+}
+
+.container{
+    padding: 10rem 7.5rem;
+    text-align: center;
+}
+
+.contact-title{
+    margin-top: 0.5rem;
+}
+
+.container > p{
+    margin-top: 1.5rem;
+}
+
+.container > button{
+    margin-top: 2rem;
+    transition: opacity 0.5s ease-in-out, transform 0.5s .2s;
+}
+
+.container > button:hover{
+    opacity: 0.8;
+    transform:scale(1.1);
+}
+
+.backgraund-gradient{
+    background: linear-gradient(180deg, #FFF, #d9d9d9);
+}
